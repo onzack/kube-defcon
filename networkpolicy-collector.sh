@@ -1,4 +1,7 @@
 #!/bin/sh
 
-#/usr/local/bin/kubectl get networkpolicies --all-namespaces -o json > /home/collector/all-networkpolicies.json
-echo "Hello World" >> /dev/stdout
+while true
+do
+  echo "Hello kuberecon world."
+  sleep 5
+done
