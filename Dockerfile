@@ -3,9 +3,10 @@ LABEL maintainer=dmlabs
 ENV TZ=Europe/Zurich
 RUN apk update && \
     apk upgrade && \
-    apk add -U tzdata && \
-    apk add -U curl && \
-    apk add -U jq && \
+    apk add tzdata && \
+    apk add curl && \
+    apk add mongodb-tools && \
+    apk add jq && \
     rm -f /var/cache/apk/* && \
     addgroup -S collector && adduser -S collector -G collector
 COPY ./networkpolicy-collector.sh /usr/local/bin/networkpolicy-collector.sh
