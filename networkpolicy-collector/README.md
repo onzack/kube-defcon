@@ -1,6 +1,6 @@
 # NetworkPolicy Collector
 ## Comment
-For the moment, the NetworkPolicy Collector is cept as simple as possible with just a few bash scripts.
+For the moment, the NetworkPolicy Collector is kept as simple as possible with just a few bash scripts.
 
 ## Start the NetworkPolicy Collector
 ### Needed environment variables
@@ -16,5 +16,5 @@ sudo docker run -tid --name networkpolicy-collector \
   -e MONGODB_HOST="localhost" \
   -e MONGODB_PORT="27017" \
   -e INTERVAL="20" \
-  kuberecon-networkpolicy-collector:v0.0.1
+  kuber-devcon-networkpolicy-collector:v0.0.1
 ```
