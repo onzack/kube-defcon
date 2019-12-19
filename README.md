@@ -14,3 +14,6 @@ As far as I know, there are no tools out there to visualize Kubernetes NetworkPo
 I use NetworkPolicies with the Canal network plugin, but I am missing something to display the NetworkPolicis in a graph ore something similar, to get a quick overview, was is implemented.
 
 If someone knows such a tool, pleas let me know!
+
+# Update
+This project is paused in favor of this project: [dmlabs/kube-scout](https://github.com/dmlabs/kube-scout)
