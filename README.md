@@ -16,7 +16,7 @@ I use NetworkPolicies with the Canal network plugin, but I am missing something 
 If someone knows such a tool, pleas let me know!
 
 # Update
-This project is paused in favor of this project: [onzack/kube-scout](https://github.com/onzack/kube-scout)
+This project is paused in favor of this project: [onzack/rkm](https://github.com/onzack/rkm)
 
 # Licence
 Copyright 2021 ONZACK AG
