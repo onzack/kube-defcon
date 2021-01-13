@@ -4,7 +4,7 @@ A tool to visualize network policy information from the Kubernetes Master API
 This project is new, more and detailed information will follow in the future.
 
 # Idea
-![A Sample Graph for the idea visualization ](https://github.com/onzack/kube-defcon/blob/master/kube-defcon.png)
+![A Sample Graph for the idea visualization ](https://github.com/onzack/kube-defcon/blob/main/kube-defcon.png)
 
 kube-defcon should be usable on every Kubernetes cluster with a network plugin that supports network policies.  
 NetworkPolicies are collected simply with the `kubectl get netpol --all-namespaces` command.
